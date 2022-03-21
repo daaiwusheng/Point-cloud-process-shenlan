@@ -22,8 +22,6 @@ def get_args():
 
 if __name__ == "__main__":
 
-    RANSAC.RANSAC_ICP.Builder().set_max_works(16).set_num_samples(4)
-
     args = get_args()
     datasets_dir = args.pointcloud_dir
     radius = args.radius
