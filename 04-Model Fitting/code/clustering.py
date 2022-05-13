@@ -84,7 +84,7 @@ def ground_segmentation(data):
 
     for i in range(num_iter):
 
-        print("迭代次数：%d" % (i))
+        print("迭代次数：%d" % i)
         print("开始选点")
         # step1 随机选取三个点
         p = np.empty(shape=[0, data.shape[1]])
